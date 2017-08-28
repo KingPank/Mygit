@@ -18,7 +18,7 @@ int main()
 
 //			USART3_Configuration();
 
-		  IIC1_Confugration();
+//		  IIC1_Confugration();
 
 			MPU6050_Configuation();
 
