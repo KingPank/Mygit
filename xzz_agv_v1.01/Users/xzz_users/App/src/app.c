@@ -14,7 +14,7 @@ int main()
 	
 //			USART1_Configuration();
 
-			USART2_Configuration();
+//			USART2_Configuration();
 
 			USART3_Configuration();
 
