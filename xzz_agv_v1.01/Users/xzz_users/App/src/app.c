@@ -12,7 +12,7 @@
 int main()
 {
 	
-			USART1_Configuration();
+//			USART1_Configuration();
 
 			USART2_Configuration();
 
