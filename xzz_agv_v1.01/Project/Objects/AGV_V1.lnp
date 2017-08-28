@@ -1,0 +1,17 @@
+--cpu Cortex-M4.fp
+".\objects\app.o"
+".\objects\stm32f4xx_usart_config.o"
+".\objects\delay.o"
+".\objects\agv_handle.o"
+".\objects\stm32f4xx_it.o"
+".\objects\bcbctrlimu.o"
+".\objects\bcbmpu6050driver.o"
+".\objects\stm32f4xx_iic_config.o"
+".\objects\agv_deal.o"
+".\objects\system_stm32f4xx.o"
+"..\Library\FwLib\lib\STM32f4xx.lib"
+".\objects\startup_stm32f4xx.o"
+--library_type=microlib --strict --scatter ".\Objects\AGV_V1.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\AGV_V1.map" -o .\Objects\AGV_V1.01
